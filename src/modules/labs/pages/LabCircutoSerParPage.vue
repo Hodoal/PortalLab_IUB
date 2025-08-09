@@ -7,15 +7,25 @@
           <section class="text-center step-title-main">
             <div class="text-h6">FACULTAD DE CIENCIAS, EDUCACIÓN, ARTE Y HUMANIDADES</div>
             <div class="text-subtitle2">FÍSICA ELÉCTRICA: EXPERIMENTO No 4</div>
-            <div class="text-subtitle2">CARGA Y DESCARGA DE UN CAPACITOR</div>
+            <div class="text-subtitle2">CIRCUITOS SERIE Y PARALELOS</div>
           </section>
           <!-- BODY DEL STEP -->
-          <section class="step-body-main">
+          <section class="step-body-main q-mt-md">
+            <div>
+              Los circuitos eléctricos son configuraciones de componentes conectados por conductores
+              que permiten el flujo de corriente. Dos de las formas más comunes de conexión son
+              serie y paralelo, cada una con propiedades únicas que afectan cómo se distribuyen la
+              corriente, el voltaje y la energía.
+            </div>
             <div>
               ¿Se conservan la carga y la energía totales en un circuito eléctrico? ¿La suma de las
               caídas de voltaje a través de cada componente del circuito es igual a cero? ¿La suma
               de las corrientes que entran en una unión del circuito es igual a la suma de las
               corrientes que salen de la unión?
+            </div>
+            <div class="row flex-center q-mt-md">
+              <iframe width="400" height="300" src="https://www.youtube.com/embed/loiitLe61nc">
+              </iframe>
             </div>
           </section>
         </q-step>

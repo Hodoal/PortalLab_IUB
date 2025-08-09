@@ -5,11 +5,22 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: '', component: () => import('src/modules/labs/pages/LabTest.vue') },
       {
         path: '/simulaciones/simulation-test',
         name: 'sim-test',
         component: () => import('src/modules/simulations/pages/SimulationText.vue'),
+      },
+      {
+        path: '/simulaciones/gases',
+        name: 'sim-gases',
+        component: () => import('src/modules/simulations/pages/gasesSimulationPage.vue'),
+      },
+      {
+        path: '/simulaciones/efecto-fotoelectrico',
+        name: 'sim-efecto-fotoelectrico',
+        component: () =>
+          import('src/modules/simulations/pages/efectoFotoelectricoSimulationPage.vue'),
       },
       {
         path: '/guias-laboratorios',

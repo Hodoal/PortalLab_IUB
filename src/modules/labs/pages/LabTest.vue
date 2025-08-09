@@ -1,7 +1,7 @@
 <template>
   <div class="q-ma-md bg-body row">
     <q-card class="my-card q-ma-xs" @click="toRouteName('lab-circuito-serie-paralelo')">
-      <img src="https://cdn.quasar.dev/img/mountains.jpg" />
+      <img src="/public/images/labs/labTest/circuito-sere-paralelo.jpg" />
 
       <q-card-section>
         <div class="text-h6">Circuitos serie y paralelo</div>
