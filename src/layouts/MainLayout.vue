@@ -4,15 +4,15 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> LABORATORIO IUB </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>FÍSICA</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> Essential Links </q-item-label>
+        <q-item-label header> Menú </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
       </q-list>
@@ -30,46 +30,22 @@ import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink
 
 const linksList: EssentialLinkProps[] = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Guías de Laboratorio',
+    caption: 'Guías de lab. física',
     icon: 'school',
-    link: 'https://quasar.dev',
+    routeName: 'guias-lab',
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
+    title: 'Simulaciones',
+    caption: 'Simulación de física',
     icon: 'code',
-    link: 'https://github.com/quasarframework',
+    routeName: 'sim-test',
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev',
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev',
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev',
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev',
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
+    title: 'Laboratorio virtual',
+    caption: 'Modelo 3D',
+    icon: 'code',
+    routeName: 'modelo-1',
   },
 ];
 
