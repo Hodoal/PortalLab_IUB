@@ -32,6 +32,11 @@ const routes: RouteRecordRaw[] = [
         name: 'lab-circuito-serie-paralelo',
         component: () => import('src/modules/labs/pages/LabCircutoSerParPage.vue'),
       },
+      {
+        path: '/modelo3d/modelo1',
+        name: 'modelo-1',
+        component: () => import('src/modules/labVirtual3D/pages/modeloPage.vue'),
+      },
     ],
   },
 

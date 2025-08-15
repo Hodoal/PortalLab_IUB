@@ -41,6 +41,12 @@ const linksList: EssentialLinkProps[] = [
     icon: 'code',
     routeName: 'sim-test',
   },
+  {
+    title: 'Laboratorio virtual',
+    caption: 'Modelo 3D',
+    icon: 'code',
+    routeName: 'modelo-1',
+  },
 ];
 
 const leftDrawerOpen = ref(false);
