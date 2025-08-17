@@ -12,7 +12,9 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "postinstall": "quasar prepare"
+    "postinstall": "quasar prepare",
+    "predeploy": "npm run build",
+    "deploy": "cp -r build/* docs/ && git add docs && git commit -m 'Actualizar build' || echo 'No hay cambios para commitear' && git push origin main"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
