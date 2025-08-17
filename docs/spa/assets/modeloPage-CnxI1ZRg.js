@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{X as s,Q as o,W as a}from"./index-i_qCPGKu.js";const r={},n={class:"size-simulation-main"};function c(i,e){return o(),s("div",n,e[0]||(e[0]=[a("iframe",{src:"https://adorable-stardust-4d7c0c.netlify.app/model.html",style:{width:"100%",height:"100%"}},null,-1)]))}const m=t(r,[["render",c]]);export{m as default};
