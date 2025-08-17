@@ -36,7 +36,7 @@ export default defineConfig((ctx) => {
       target: {
         browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
         node: 'node20',
-        publicPath: '/PortalLab_IUB/',
+        publicPath: './',
       },
 
       typescript: {
